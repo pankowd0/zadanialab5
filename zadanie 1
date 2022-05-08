@@ -1,0 +1,10 @@
+licz1=input("Podaj pierwszą liczbę: ")
+licz2=input("Podaj drugą liczbę: ")
+licz3=input("Podaj trzecią liczbę: ")
+print("najmniejsza liczba: ")
+if licz1<licz2 and licz1<licz3 or licz1==licz2:
+    print(licz1)
+elif licz2<licz1 and licz2<licz3:
+    print(licz2)
+else:
+    print(licz3)
