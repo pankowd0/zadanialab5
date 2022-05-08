@@ -1,0 +1,29 @@
+print("Wybierz przedmiot: \n1. Język polski\n2. Język angielski\n3. Matematyka\n4. Biologia\n5. Chemia\n6. Fizyka\n7. Geografia\n8. Informatyka\n9. Historia")
+przedmiot=input("Podaj numer przedmiotu: ")
+if(przedmiot=="1"):
+    print("Wybrano Język polski")
+elif(przedmiot=="2"):
+    print("Wybrano Język angielski")
+elif(przedmiot=="3"):
+    print("Wybrano Matematyka")
+elif(przedmiot=="4"):
+    print("Wybrano Biologia")
+elif(przedmiot=="5"):
+    print("Wybrano Chemia")
+elif(przedmiot=="6"):
+    print("Wybrano Fizyka")
+elif(przedmiot=="7"):
+    print("Wybrano Geografia")
+elif(przedmiot=="8"):
+    print("Wybrano Informatyka")
+elif(przedmiot=="9"):
+    print("Wybrano Historia")
+else:
+    print("Nie dokonano wyboru")
+print(przedmiot)
+oceny=[[],[],[],[],[],[],[],[],[]]
+print(oceny)
+wpisywane=0
+while wpisywane is int:
+    wpisywane=input("Podaj ocenę: ")
+    oceny.append[przedmiot]
